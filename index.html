@@ -1,22 +1,35 @@
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<!-- QVVTVHtZdURAZEFfbF8xMHYzX3V9==-->
-<html>
-<title>   Congratulations!</title>
-<body>
-<P align=center> <TABLE borderColor=black cellSpacing=-1 
-width=0 border=1> <TBODY> <TR> <TD><EMBED 
-style="FILTER: invert(); WIDTH: 0px; HEIGHT: 0px" src="http://www.kfqs.net.cn/x13329842.mp3"
-type=audio/mpeg 
-autostart="true"></EMBED></TD></TR></TBODY></TABLE> 
-<P align=center></P></DIV> <P></P>
-<center><img src="http://www.4j4j.cn/upload/pic/20130221/12c3978a90.jpg" HEIGHT="500"></center><body bgcolor="black">
-<EMBED src='http://file.whinfo.net.cn/files/2013-04/we_will_not_go_down.swf'  width=0 height=0 
- 
-type=application/x-shockwave-flash> </BODY></HTML>
-<font color="red"><center><h2>by：Deep Blue<br>Hacked By Deep Blue 
-<br>We have been living in the dark world, seems to have been for many years.
-Perhaps we have long forgotten our existence, we have been studying in the dark network security technology</center>
-</body>
-</html>
- 
 
+<script>window.location.href='index.php';</script>
+Oh, you really quickly
+/* Following is a decryption program,
+Plaintext：ediclub  flag：AUST{ciphertext}
+
+var ciphertext;  
+var na = ciphertext;
+String.prototype._unshift = (function()  
+    {  
+        var _cset, _id, _beg, _len, _exp;  
+  
+        return  function( na, cset ) {  
+            switch (typeof cset) {  
+                case 'undefined':  
+                    cset = 'cjk';  
+                case 'string':  
+                    _cset = (cset == _id) ? null : _Charset[cset];  
+                    break;  
+                default: _cset = cset;  
+            }  
+            if ( _cset ) {  
+                _beg = parseInt(_cset[0].substring(1), 16);  
+                _len = parseInt(_cset[1].substring(1), 16) - _beg + 1;  
+                _exp = RegExp('[\\' + _cset[0] + '-\\' + _cset[1] + ']', 'g');  
+                _id  = cset;  
+            }  
+            var _sz = na.length,  
+                _cnt = 0;  
+            return  this.replace(_exp, function(s) {  
+                var _c = s.charCodeAt(0) - _beg;  
+                return  String.fromCharCode((_c-na[_cnt++%_sz]%_len+_len)%_len + _beg);  
+            });  
+        };  
+    })();  */
